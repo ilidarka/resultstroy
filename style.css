@@ -9,7 +9,6 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    background-color: #E3ECE2;
 }
 .buttons {
     border: none;
@@ -164,10 +163,12 @@ main {
     align-items: center;
 }
 .info {
-    margin-top: 5px;
+    min-height: 162px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #E3ECE2;
 }
 .info .mainWrapper {
     flex-direction: row;
@@ -198,7 +199,6 @@ main {
     color: #202020;
 }
 .description {
-    margin-top: 36px;
     width: 100%;
     min-height: 731px;
     display: flex;
@@ -289,4 +289,52 @@ main {
     line-height: 21px;
     text-transform: uppercase;
     color: #202020;
+}
+.howToBuy {
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.howToBuy span {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #202020;
+}
+.howToBuyItems {
+    width: 100%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.howToBuy-item {
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.howToBuy-item h4 {
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #202020;
+}
+.howToBuy-item span {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    color: #202020;
+}
+.howToBuy .howToBuyButton {
+    margin-top: 80px;
+    width: 268px;
 }
