@@ -9,6 +9,7 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    background-color: #E3ECE2;
 }
 .buttons {
     border: none;
@@ -25,7 +26,9 @@ header {
     display: flex;
     justify-content: center;
     background-image: url("./img/headerBackground.png");
+    background-size: cover;
     background-repeat: no-repeat;
+
 }
 .headerContainer {
     max-width: 1173px;
@@ -137,4 +140,105 @@ header .phoneNumber span {
 .headerTitle .rentButton {
     margin-top: 47px;
     width: 268px;
+}
+main {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainWrapper {
+    max-width: 1173px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.info .mainWrapper {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.info-item .itemUpper {
+    display: flex;
+    justify-content: center;
+}
+.info-item .itemUpper span {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #787878;
+}
+.info-item span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #202020;
+}
+.description {
+    margin-top: 36px;
+    width: 100%;
+    min-height: 731px;
+    display: flex;
+    justify-content: center;
+    background-image: url("./img/descriptionBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description .mainWrapper {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 131px;
+}
+.description h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.65);
+    margin-right: 45px;
+    padding-top: 41px;
+    padding-right: 83px;
+    padding-left: 48px;
+    padding-bottom: 45px;
+}
+.description ul {
+    background-color: #fff;
+    padding-left: 23px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.description ul li {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.description ul li span {
+    padding-left: 10px;
+}
+.description .benefitsButton {
+    margin-top: 32px;
+    width: 373px;
 }
