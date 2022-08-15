@@ -1,0 +1,140 @@
+:root {
+    --main-green: #357731;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+.buttons {
+    border: none;
+    background-color: var(--main-green);
+    width: 160px;
+    height: 53px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 6px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url("./img/headerBackground.png");
+    background-repeat: no-repeat;
+}
+.headerContainer {
+    max-width: 1173px;
+    width: 100%;
+    min-height: 712px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo span {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.navBar {
+    display: flex;
+    max-width: 459px;
+    width: 100%;
+}
+.navBar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+header .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .phoneNumber span {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.contacts .phoneNumber span {
+    padding-left: 10px;
+}
+.contacts span {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.headerTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.headerTitle h1 {
+    margin-top: 38px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+.headerTitle h1 span {
+    color: #DBE285; 
+}
+.headerTitle h2 {
+    margin-top: 19px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 150%;
+    color: #fff;
+}
+.renthouseDate {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.renthouseDate span {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.headerTitle .rentButton {
+    margin-top: 47px;
+    width: 268px;
+}
