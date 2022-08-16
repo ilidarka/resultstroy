@@ -671,4 +671,13 @@ footer .footerLogo {
         flex-direction: column;
         gap: 10px;
     }
+    .villageBenefits .mainWrapper .benefitsGallery img {
+        width: 100%;
+    }
+    .description .mainWrapper h3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hypotec .hypotecContacts input {
+    }
 }
