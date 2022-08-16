@@ -8,9 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Инфраструктура</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav> 
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
     <header>
         <div class="headerContainer">
             <div class="logo-navBar">
@@ -244,15 +261,15 @@
                 <div class="galleryItems">
                     <div class="gallery-item">
                         <img src="./img/galleryItem1.png" alt="gallery-item">
-                        <img src="./img/galleryItem2.png" alt="gallery-item">
+                        <img class="wideImage" src="./img/galleryItem2.png" alt="gallery-item">
                     </div>
                     <div class="gallery-item">
-                        <img src="./img/galleryItem3.png" alt="gallery-item">
+                        <img class="wideImage" src="./img/galleryItem3.png" alt="gallery-item">
                         <img src="./img/galleryItem4.png" alt="gallery-item">
                     </div>
                     <div class="gallery-item">
                         <img src="./img/galleryItem5.png" alt="gallery-item">
-                        <img src="./img/galleryItem6.png" alt="gallery-item">
+                        <img class="wideImage" src="./img/galleryItem6.png" alt="gallery-item">
                     </div>
                 </div>
             </div>
@@ -292,7 +309,7 @@
                     </div>
                 </div>
                 <div class="footerMap">
-                    <img src="./img/footerMap.png" alt="map">
+                    <img class="wideImage" src="./img/footerMap.png" alt="map">
                 </div>
             </div>
         </div>
