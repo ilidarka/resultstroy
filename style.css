@@ -1,3 +1,4 @@
+@import url("./checkBoxStyle.css");
 :root {
     --main-green: #357731;
 }
@@ -337,4 +338,142 @@ main {
 .howToBuy .howToBuyButton {
     margin-top: 80px;
     width: 268px;
+}
+.hypotec {
+    margin-top: 99px;
+    min-height: 428px;
+    width: 100%;
+    background-image: url("./img/hypotecBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.hypotec .mainWrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+.hypotecList h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.01px;
+}
+.hypotecList ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 36px;
+    color: #FFFFFF;
+    list-style-type: square;
+    list-style-image: url("./img/square.png");
+}
+.hypotecContacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 134px;
+}
+.hypotecContacts input {
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-right: 64px;
+    padding-bottom: 14px;
+}
+.hypotecContacts .secondInput {
+    margin-top: 8px;
+}
+.gallerySection {
+    margin-top: 92px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.galleryItems {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.gallery-item {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+}
+footer .footerContactsContainer {
+    margin-top: 34px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footerContacts {
+    margin-top: 60px;
+    width: 100%;
+}
+footer .footerPhone {
+    display: flex;
+}
+footer .phoneNumber-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+footer .phone {
+    display: flex;
+    width: 100%;
+}
+footer .phone span {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #202020;
+    margin-left: 6px;
+}
+footer .footerPhone button {
+    margin-left: 25px;
+}
+footer .mail {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #202020;
+    margin-left: 44px;
+}
+footer .footerTimetable {
+    margin-top: 23px;
+    display: flex;
+    align-items: flex-start;
+}
+footer .footerTimetable span {
+    margin-left: 19px;
+}
+footer .footerAdres {
+    margin-top: 42px;
+    display: flex;
+    align-items: flex-start;
+}
+footer .footerAdres span {
+    margin-left: 19px;
+}
+footer .footerLogo {
+    margin-top: 50px;
 }
