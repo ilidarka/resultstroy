@@ -40,7 +40,6 @@ header {
     background-image: url("./img/headerBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .headerContainer {
     max-width: 1173px;
@@ -95,6 +94,10 @@ header .phoneNumber span {
     font-size: 22px;
     line-height: 26px;
     color: #FFFFFF;
+}
+header .phoneNumber a {
+    color: #fff;
+    text-decoration: none;
 }
 .contacts {
     display: flex;
@@ -459,6 +462,10 @@ footer .phone span {
 }
 footer .footerPhone button {
     margin-left: 25px;
+}
+footer .phone a {
+    color: #000;
+    text-decoration: none;
 }
 footer .mail {
     font-weight: 400;
