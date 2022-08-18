@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sliderStyles.css">
     <script src="script.js" defer></script>
     <title>Document</title>
 </head>
@@ -46,7 +47,7 @@
                 <div class="contacts">
                     <div class="phoneNumber">
                         <img src="./img/phone.svg" alt="phone">
-                        <span>(3532) 935-002</span>
+                        <span><a href="#">(3532) 935-002</a></span>
                     </div>
                     <span>ntv.osobniak@mail.ru</span>
                     <button class="buttons">Заказать звонок</button>
@@ -150,7 +151,18 @@
         <section class="districtStructure">
             <div class="mainWrapper">
                 <h3>Инфраструктура района</h3>
-                <img src="./img/districtStructure.png" alt="districtStructure">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 2</div>
+                        <img src="./img/districtStructure.png" style="width:100%" alt="districtStructure">
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 2</div>
+                        <img src="./img/districtStructure.png" style="width:100%" alt="districtStructure">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
                 <button class="buttons districtButton">Смотреть планировки и цены</button>
             </div>
         </section>
@@ -284,7 +296,7 @@
                         <div class="phoneNumber-email">
                             <div class="phone">
                                 <img src="./img/phone.svg" alt="phone">
-                                <span>(3532) 935-002</span>
+                                <span><a href="#">(3532) 935-002</a></span>
                             </div>
                             <div class="mail">
                                 <span>ntv.osobniak@mail.ru</span>
