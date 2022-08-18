@@ -28,13 +28,6 @@
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-.numbertext {
-    color: #000;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
