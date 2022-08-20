@@ -499,8 +499,47 @@ footer .footerAdres {
 footer .footerAdres span {
     margin-left: 19px;
 }
-footer .footerLogo {
-    margin-top: 50px;
+footer .footerCompanyLogo {
+    display: flex;
+    padding: 24px 0;
+}
+footer .footerCompanyLogo .footerLink a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .footerCompanyLogo .footerLink span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    color: #4f4f4f;
+}
+footer .footerCompanyLogo .footerLink span:first-child {
+    font-weight: 800;
+}
+footer .footerCompanyLogo .footerLink span:nth-child(2) {
+    font-weight: 500;
+}
+footer .footerCompanyLogo .footerLogoText a {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .footerCompanyLogo .footerLogoText span {
+    padding-left: 10px;
+    border-left: 1px solid #1B1B1B50;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+}
+footer .footerCompanyLogo a {
+    text-decoration: none;
+}
+footer .footerCompanyLogo img {
+    padding-right: 20px;
 }
 #menu {
     z-index: 2;
