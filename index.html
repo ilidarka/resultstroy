@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="./assets/templates/main/style.css">
     <link rel="stylesheet" href="./assets/templates/main/sliderStyles.css">
+    <link rel="stylesheet" href="./assets/templates/main/modal.css">
     <script src="./assets/js/script.js" defer></script>
     <title>Document</title>
 </head>
@@ -21,11 +22,11 @@
         </div>
         <nav class="nav" id="nav">
           <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Инфраструктура</a></li>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Инфарструктура</a></li>
             <li><a href="#">О нас</a></li>
             <li><a href="#">Контакты</a></li>
-          </ul>
+</ul>
         </nav> 
     </div>
     <div class="menu-bg" id="menu-bg"></div>
@@ -38,10 +39,10 @@
                 </div>
                 <nav class="navBar">
                     <ul>
-                        <li>Главная</li>
-                        <li>Инфарструктура</li>
-                        <li>О нас</li>
-                        <li>Контакты</li>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#">Инфарструктура</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
                     </ul>
                 </nav>
                 <div class="contacts">
@@ -50,7 +51,7 @@
                         <span><a href="#">(3532) 935-002</a></span>
                     </div>
                     <span>ntv.osobniak@mail.ru</span>
-                    <button class="buttons">Заказать звонок</button>
+                    <button class="buttons" id="topPhoneButton">Заказать звонок</button>
                 </div>
             </div>
             <div class="headerTitle">
@@ -262,6 +263,7 @@
                             <input type="checkbox" checked="checked" />
                         <div class="control_indicator"></div>
                     </label>
+                    <button class="buttons hypotecButton">Отправить</button>
                 </div>            
             </div>
         </section>
@@ -300,7 +302,7 @@
                                 <span>ntv.osobniak@mail.ru</span>
                             </div>
                         </div>
-                        <button class="buttons">Заказать звонок</button>
+                        <button class="buttons" id="bottomPhoneButton">Заказать звонок</button>
                     </div>
                     <div class="footerTimetable">
                         <img src="./assets/templates/main/img/watch.png" alt="watch">
@@ -324,5 +326,15 @@
             </div>
         </div>
     </footer>
+    <div id="modalWindow" class="modal">
+        <div class="modal-content">
+            <span class="closeButton">&times;</span>
+            <div class="modal-items">
+                <p>Введите ваш номер</p>
+                <input type="text">
+                <button class="approveButton buttons">Заказать</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

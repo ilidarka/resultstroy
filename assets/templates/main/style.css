@@ -84,6 +84,12 @@ header {
     text-transform: uppercase;
     color: #fff;
 }
+.navBar a {
+    text-decoration: none;
+    color: #fff;}
+.navBar a:active {
+    color: #fff;
+}
 header .contacts {
     display: flex;
     flex-direction: column;
@@ -401,6 +407,9 @@ main {
 }
 .hypotecContacts .secondInput {
     margin-top: 8px;
+}
+.hypotec .hypotecButton {
+    width: 310px;
 }
 .gallerySection {
     margin-top: 92px;
